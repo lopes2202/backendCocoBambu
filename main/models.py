@@ -10,7 +10,7 @@ class LivroFavoritado(models.Model):
         on_delete=models.CASCADE,
         null=True
     )
-    id_google = models.CharField(max_length=100, primary_key=True)
+    id_google = models.CharField(max_length=100)
     nota = models.IntegerField()
     notas_pessoais = models.TextField()
     tags = models.JSONField()

@@ -14,7 +14,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='LivroFavoritado',
             fields=[
-                ('id_google', models.CharField(max_length=100, primary_key=True, serialize=False)),
+                ('id', models.AutoField(primary_key=True)),
+                ('id_google', models.CharField(max_length=100, serialize=False)),
                 ('nota', models.IntegerField()),
                 ('notas_Pessoais', models.TextField()),
                 ('tags', models.JSONField()),

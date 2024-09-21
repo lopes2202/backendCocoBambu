@@ -25,6 +25,6 @@ Email address: exemplo@exemplo.com
 Password: ****
 Password (again): ******
 
-Com o email e a senha que criou, é necessário apenas logar no site.
+Com o email/usuario e a senha que criou, é necessário apenas logar no site.
 
 
